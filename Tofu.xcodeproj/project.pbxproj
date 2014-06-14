@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		549A49D8194C71B9007F9694 /* EqualMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549A49D7194C71B9007F9694 /* EqualMatcher.swift */; };
+		54CE8D7B194C847100756BF0 /* LestThanMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CE8D7A194C847100756BF0 /* LestThanMatcher.swift */; };
+		54CE8D7D194C84AF00756BF0 /* LessThanSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CE8D7C194C84AF00756BF0 /* LessThanSpec.swift */; };
 		54ECBDF81948231400F532D2 /* Tofu.h in Headers */ = {isa = PBXBuildFile; fileRef = 54ECBDF71948231400F532D2 /* Tofu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54ECBDFE1948231500F532D2 /* Tofu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ECBDF21948231400F532D2 /* Tofu.framework */; };
 		54ECBE051948231500F532D2 /* EqualMatcherSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ECBE041948231500F532D2 /* EqualMatcherSpec.swift */; };
@@ -27,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		549A49D7194C71B9007F9694 /* EqualMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EqualMatcher.swift; sourceTree = "<group>"; };
+		54CE8D7A194C847100756BF0 /* LestThanMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LestThanMatcher.swift; sourceTree = "<group>"; };
+		54CE8D7C194C84AF00756BF0 /* LessThanSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessThanSpec.swift; sourceTree = "<group>"; };
 		54ECBDF21948231400F532D2 /* Tofu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tofu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54ECBDF61948231400F532D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54ECBDF71948231400F532D2 /* Tofu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tofu.h; sourceTree = "<group>"; };
@@ -82,6 +86,7 @@
 				54ECBDF71948231400F532D2 /* Tofu.h */,
 				54ECBE0E1948232B00F532D2 /* Expectation.swift */,
 				549A49D7194C71B9007F9694 /* EqualMatcher.swift */,
+				54CE8D7A194C847100756BF0 /* LestThanMatcher.swift */,
 				54ECBDF51948231400F532D2 /* Supporting Files */,
 			);
 			path = Tofu;
@@ -99,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				54ECBE041948231500F532D2 /* EqualMatcherSpec.swift */,
+				54CE8D7C194C84AF00756BF0 /* LessThanSpec.swift */,
 				54ECBE021948231500F532D2 /* Supporting Files */,
 			);
 			path = Specs;
@@ -222,6 +228,7 @@
 			files = (
 				54ECBE0F1948232B00F532D2 /* Expectation.swift in Sources */,
 				549A49D8194C71B9007F9694 /* EqualMatcher.swift in Sources */,
+				54CE8D7B194C847100756BF0 /* LestThanMatcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54CE8D7D194C84AF00756BF0 /* LessThanSpec.swift in Sources */,
 				54ECBE051948231500F532D2 /* EqualMatcherSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

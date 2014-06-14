@@ -13,9 +13,11 @@ import Tofu
 class EqualMatcherSpec: XCTestCase {
     func testEqual() {
         expect(1).to.equal(1)
+        expect("a").to.equal("a")
     }
 
     func testNotEqual() {
         expect(1).notTo.equal(10)
+        expect("a").notTo.equal("ab")
     }
 }

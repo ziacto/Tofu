@@ -1,5 +1,5 @@
 //
-//  Specs.swift
+//  EqualMatcherSpec.swift
 //  Specs
 //
 //  Created by Robert Böhnke on 11/06/14.
@@ -10,10 +10,12 @@ import XCTest
 
 import Tofu
 
-class Specs: XCTestCase {
-    func testExample() {
+class EqualMatcherSpec: XCTestCase {
+    func testEqual() {
         expect(1).to.equal(1)
+    }
 
+    func testNotEqual() {
         expect(1).notTo.equal(10)
     }
 }

@@ -10,7 +10,7 @@
 		549A49D8194C71B9007F9694 /* EqualMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549A49D7194C71B9007F9694 /* EqualMatcher.swift */; };
 		54ECBDF81948231400F532D2 /* Tofu.h in Headers */ = {isa = PBXBuildFile; fileRef = 54ECBDF71948231400F532D2 /* Tofu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54ECBDFE1948231500F532D2 /* Tofu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ECBDF21948231400F532D2 /* Tofu.framework */; };
-		54ECBE051948231500F532D2 /* Specs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ECBE041948231500F532D2 /* Specs.swift */; };
+		54ECBE051948231500F532D2 /* EqualMatcherSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ECBE041948231500F532D2 /* EqualMatcherSpec.swift */; };
 		54ECBE0F1948232B00F532D2 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ECBE0E1948232B00F532D2 /* Expectation.swift */; };
 		54ECBE111948271900F532D2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ECBE101948271900F532D2 /* XCTest.framework */; };
 /* End PBXBuildFile section */
@@ -32,7 +32,7 @@
 		54ECBDF71948231400F532D2 /* Tofu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tofu.h; sourceTree = "<group>"; };
 		54ECBDFD1948231500F532D2 /* Specs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Specs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54ECBE031948231500F532D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54ECBE041948231500F532D2 /* Specs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specs.swift; sourceTree = "<group>"; };
+		54ECBE041948231500F532D2 /* EqualMatcherSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualMatcherSpec.swift; sourceTree = "<group>"; };
 		54ECBE0E1948232B00F532D2 /* Expectation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expectation.swift; sourceTree = "<group>"; };
 		54ECBE101948271900F532D2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -98,7 +98,7 @@
 		54ECBE011948231500F532D2 /* Specs */ = {
 			isa = PBXGroup;
 			children = (
-				54ECBE041948231500F532D2 /* Specs.swift */,
+				54ECBE041948231500F532D2 /* EqualMatcherSpec.swift */,
 				54ECBE021948231500F532D2 /* Supporting Files */,
 			);
 			path = Specs;
@@ -229,7 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54ECBE051948231500F532D2 /* Specs.swift in Sources */,
+				54ECBE051948231500F532D2 /* EqualMatcherSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
